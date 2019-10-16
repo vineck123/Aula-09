@@ -68,3 +68,18 @@ input#menu {
 input:checked~.menu-content {
     max-height: 100%;
 }
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    height: 50px;
+}
